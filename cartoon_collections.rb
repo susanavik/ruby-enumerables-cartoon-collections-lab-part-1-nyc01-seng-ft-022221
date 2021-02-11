@@ -8,7 +8,7 @@ end
 def list_dwarves(array)
   dwarves_array = ["Gimli", "Thorin", "Balin", "Gloin"]
   array.each_with_index {|item, index|
-    dwarves_array[item] = index 
+    dwarves_array[item] = index
   }
 end
     puts dwarves_arrayx
