@@ -8,10 +8,8 @@ end
 def list_dwarves(array)
   dwarves_array = ["Gimli", "Thorin", "Balin", "Gloin"]
   array.each_with_index {|item, index|
-    dwarves_array[item] = index }
-    puts dwarves_array
-  end
-  # Use `each_with_index` to enumerate over the provided array
-  #
-  # Print a numbered list of each element
+    dwarves_array[item] = index 
+  }
+end
+    puts dwarves_arrayx
 end
